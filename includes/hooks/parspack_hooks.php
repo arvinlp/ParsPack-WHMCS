@@ -2,7 +2,14 @@
 
 /**
  * WHMCS Parspack Module Hooks
- * 
+ * ============================================
+ * @Author: Arvin Loripour - ViraEcosystem
+ * @Date: 2025-10-21 10:21:52
+ * Copyright by Arvin Loripour
+ * WebSite : http://www.arvinlp.ir
+ * @Last Modified by: Arvin.Loripour
+ * @Last Modified time: 2025-10-21 10:23:04
+ * ============================================
  * این فایل را در مسیر /includes/hooks/ قرار دهید
  */
 

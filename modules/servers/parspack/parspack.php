@@ -2,7 +2,14 @@
 
 /**
  * WHMCS Parspack Cloud Server Provisioning Module
- *
+ * ============================================
+ * @Author: Arvin Loripour - ViraEcosystem
+ * @Date: 2025-10-21 10:21:52
+ * Copyright by Arvin Loripour
+ * WebSite : http://www.arvinlp.ir
+ * @Last Modified by: Arvin.Loripour
+ * @Last Modified time: 2025-10-21 10:24:53
+ * ============================================
  * @copyright Copyright (c) 2025
  * @license https://www.whmcs.com/license/ WHMCS Eula
  */
@@ -10,6 +17,13 @@
 if (!defined("WHMCS")) {
     die("This file cannot be accessed directly");
 }
+
+// Load autoloader and classes
+require_once __DIR__ . '/autoload.php';
+
+use Parspack\WHMCS\Api;
+use Parspack\WHMCS\Server;
+use Parspack\WHMCS\Helper;
 
 /**
  * Define module related meta data.

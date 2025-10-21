@@ -1,8 +1,14 @@
 <?php
-
 /**
  * Parspack Module Configuration File
- * 
+ * ============================================
+ * @Author: Arvin Loripour - ViraEcosystem
+ * @Date: 2025-10-21 10:21:52
+ * Copyright by Arvin Loripour
+ * WebSite : http://www.arvinlp.ir
+ * @Last Modified by: Arvin.Loripour
+ * @Last Modified time: 2025-10-21 10:22:40
+ * ============================================
  * این فایل را در مسیر /modules/servers/parspack/ قرار دهید
  */
 
