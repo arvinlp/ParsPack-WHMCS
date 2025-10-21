@@ -277,4 +277,52 @@ yum update -y  # CentOS
             <!-- Support Information -->
             <div class="info-box">
                 <h3>💬 پشتیبانی</h3>
-                <p style="margin: 10px 0;">در صورت نیاز به کمک، با ما تماس
+                <p style="margin: 10px 0;">در صورت نیاز به کمک، با ما تماس بگیرید:</p>
+                <div class="info-row">
+                    <span class="info-label">ایمیل پشتیبانی:</span>
+                    <span class="info-value">{$support_email}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">تیکت پشتیبانی:</span>
+                    <span class="info-value"><a href="{$support_url}">ارسال تیکت</a></span>
+                </div>
+            </div>
+
+            <!-- Security Tips -->
+            <div class="info-box" style="background: #e7f3ff; border-right-color: #2196F3;">
+                <h3 style="color: #2196F3;">🔒 نکات امنیتی مهم</h3>
+                <ul style="margin: 10px 0; padding-right: 20px;">
+                    <li>حتماً رمز عبور پیچیده و قوی استفاده کنید</li>
+                    <li>فقط پورت‌های مورد نیاز را باز نگه دارید</li>
+                    <li>از کلید SSH برای احراز هویت استفاده کنید</li>
+                    <li>به‌طور منظم بکاپ بگیرید</li>
+                    <li>سیستم عامل را همیشه به‌روز نگه دارید</li>
+                    <li>از Fail2ban برای جلوگیری از حملات استفاده کنید</li>
+                </ul>
+            </div>
+
+            <!-- Useful Resources -->
+            <div class="info-box" style="background: #fff8e1; border-right-color: #ff9800;">
+                <h3 style="color: #ff9800;">📚 منابع مفید</h3>
+                <ul style="margin: 10px 0; padding-right: 20px;">
+                    <li><a href="https://docs.parspack.com">مستندات پارس‌پک</a></li>
+                    <li><a href="{$knowledge_base_url}">پایگاه دانش</a></li>
+                    <li><a href="{$tutorials_url}">آموزش‌های تصویری</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>{$company_name}</strong></p>
+            <p>{$company_address}</p>
+            <p>تلفن: {$company_phone} | ایمیل: {$company_email}</p>
+            <p style="margin-top: 15px; font-size: 11px; color: #999;">
+                این ایمیل به صورت خودکار ارسال شده است. لطفاً به آن پاسخ ندهید.<br>
+                برای پشتیبانی از طریق سیستم تیکتینگ اقدام کنید.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
